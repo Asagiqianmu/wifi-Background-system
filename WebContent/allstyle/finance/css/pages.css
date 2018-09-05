@@ -1,0 +1,50 @@
+.page1{
+    font-size: 12px;
+    -moz-user-select:none;/*鐏嫄*/
+    -webkit-user-select:none;/*webkit娴忚鍣�/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*鏃╂湡娴忚鍣�/
+    user-select:none;
+}
+
+.font-b {
+    color: #03A1B9;
+}
+
+.font-w {
+    color: #fff;
+}
+
+.pageBtn {
+    padding: 5px 4px;
+    height: 18px;
+    background-color: #03A1B9;
+    border-radius: 2px;
+}
+
+.pageNum {
+    height: 18px;
+    width: 34px;
+    border: 1px solid #03A1B9;
+
+}
+
+.pagePointer {
+    cursor: pointer;
+}
+
+.mgn-5 {
+    margin-right: 5px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+#pages{
+	position: fixed;
+	z-index:9999;
+	right:20px;
+}

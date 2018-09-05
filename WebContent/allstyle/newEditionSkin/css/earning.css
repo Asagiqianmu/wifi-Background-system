@@ -1,0 +1,43 @@
+.user-list > ul > li:hover{
+	background: #f1f1f1;
+}
+.rechargeType > i{
+	right: 100px !important;
+}
+.switch{
+	position: absolute;
+	right: 0px;
+	top: 34px;
+	color: #57c6d4;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px dashed #57c6d4;
+	font-size: 12px;
+	cursor: pointer;
+}
+.names{
+	display: none;
+}
+.names > input{
+	width: 140px;
+	height: 34px;
+	border: 1px solid #57c6d4;
+	margin-left: 20px;
+	text-align: center;
+}
+.down{
+	margin-left: 2%;
+	width: 100%;
+}
+.download{
+	width: 120px;
+	height: 28px;
+	color: #fff;
+	background: #57c6d4;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.download:hover{
+	background: #5bd2e1;
+}

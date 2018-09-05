@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+			http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+			http://www.springframework.org/schema/aop 
+			http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			http://www.springframework.org/schema/context 
+			http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<!-- 定时获得运营概览的数据  start-->
+	<bean id="getTypeDataJob" class="com.fxwx.service.impl.DataStatisticsImpl" />
+	<bean id="getTypeDataJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="getTypeDataJob" />
+		<property name="targetMethod" value="TiminggetTypeData" />
+		<property name="concurrent" value="false" />
+		<!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+	</bean>
+	<!-- Trigger的配置(全员代理) -->
+	<bean id="getTypeDataTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="getTypeDataJobDetail" />
+		<property name="cronExpression" value="00 55 23 ? * *" />
+	</bean>
+	<!-- 定时获得运营概览的数据 end -->
+
+
+
+	<!-- 用户登录日志 start-->
+	<bean id="cloudSiteServiceImpl" class="com.fxwx.service.impl.CloudSiteServiceImpl"></bean>
+	<bean id="userLoginDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="cloudSiteServiceImpl" />
+		<property name="targetMethod" value="updateLoginTable" /><!--定时方法名称 -->
+		<property name="concurrent" value="false" />
+		<!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+	</bean>
+	<bean id="userLoginTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="userLoginDetail" />
+		<property name="cronExpression" value="0 0 0 * * ?" /><!-- 每日00:00:00触发 -->
+	</bean>
+	<!-- 用户登录日志 end-->
+	
+		
+	<!-- 定时检查用户mac  start -->
+	<bean id="timingtasck" class="com.fxwx.service.impl.TimingtaskServiceImpl"></bean>
+	<bean id="accttasck" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="timingtasck" />
+			<property name="targetMethod" value="lockUserTime" /><!--定时方法名称 -->
+			<property name="concurrent" value="false" />
+	</bean>
+	<bean id="accttasckTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="accttasck" />
+		<property name="cronExpression" value="0 0 1 * * ?" /><!-- 每天凌晨1点触发 -->
+	</bean>
+	<!-- 定时检查用户mac end  -->
+
+
+
+	<!-- Scheduler包含一个Trigger列表，每个Trigger表示一个作业 -->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<!--QuartzScheduler 延时启动，/秒，应用启动后 QuartzScheduler 再启动 -->
+		<property name="startupDelay" value="5" />
+		<!-- 普通触发器：触发器列表，（可以配置多个任务） -->
+		<property name="triggers">
+			<list>
+				<ref bean="getTypeDataTrigger" />
+				<ref bean="userLoginTrigger" />
+				<ref bean="accttasckTrigger" />
+			</list>
+		</property>
+		<property name="autoStartup" value="true" />
+	</bean>
+
+</beans>

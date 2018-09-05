@@ -1,0 +1,399 @@
+/* ----------------椤堕儴---------------- */
+#header{
+    min-width: 800px;
+    width: 100%;
+    height: 60px;
+    background: #03A1B9;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+#header img{
+    width:auto;
+}
+.tip{
+    cursor: pointer;
+}
+.msg_title{
+    height: 60px;
+    line-height: 60px;
+}
+.msg_title img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.msg_title > span{
+    color: #fff;
+    font-size: 16px;
+}
+.msg_title > span > i{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.user_msg{
+    position: relative;
+}
+.user_msg img{
+    padding: 22px 10px ;
+}
+.user_phone{
+    width: 165px;
+    display: inline-block;
+    padding-right: 15px;
+    color: #fff;
+    text-align: center;
+}
+.user_phone:hover{
+    background: #4cadb9;
+}
+.msg_tip{
+    margin: auto 15px;
+    cursor: pointer;
+}
+.menu{
+    width: 165px;
+    background: #03A1B9;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    display: none;
+}
+.menu > li{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.menu > li.exit{
+    background: url(../img/exit.png) no-repeat 12px center;
+    background-size: 15px;
+}
+.menu > li.personageCenter{
+    background: url(../img/personageCenter.png) no-repeat 12px center;
+    background-size: 12px;
+}
+.menu > li.exit:hover{
+    background: #4cadb9 url(../img/exit.png) no-repeat 12px center;
+    background-size: 15px;
+}
+.menu > li.personageCenter:hover{
+    background: #4cadb9 url(../img/personageCenter.png) no-repeat 12px center;
+    background-size: 12px;
+}
+.user_phone:hover > .menu{
+    display: block;
+}
+/* ----------------椤堕儴---------------- */
+/* ----------------宸﹂儴---------------- */
+#leftNav{
+    width: 160px;
+    height: 100%;
+    background: #ccc;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-right: 2px solid #777;
+}
+#leftNav.on{
+    width: 60px;
+}
+.module{
+    width: 100%;
+    height: 42px;
+    margin-top: 60px;
+    display: inline-block;
+    background: url(../img/module.png) no-repeat center;
+}
+
+.module:hover{
+    background: #777 url(../img/module.png) no-repeat center;
+}
+.linkList{
+    width: 100%;
+    color: #fff;
+}
+.linkList > li{
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: relative;
+}
+#leftNav.on li > span{
+    display: none;
+}
+.linkList img{
+    margin: 18px 18px 0 18px;
+}
+.linkList > li:hover{
+    background: #777;
+}
+.linkList > li.on{
+    background: #777;
+}
+.linkList > li > p{
+    position: absolute;
+    width: 100px;
+    background: #777;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    top: 0px;
+    left: 75px;
+    display: none;
+}
+.linkList > li > p:before{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 10px;
+    background: url(../img/sm_lf.png) no-repeat right;
+    position: absolute;
+    top: 24px;
+    left: -8px;
+}
+#leftNav.on li:hover > p{
+    display: block;
+}
+.incline{
+    width: 15px;
+    height: 40px;
+    position: absolute;
+    background: url(../img/incline.png) no-repeat right;
+    top: 50%;
+    right: -17px;
+    transition: .25s;
+    z-index: 1;
+    border-left: 2px;
+    cursor: pointer;
+}
+.incline:hover{
+    width: 25px;
+    right: -27px;
+}
+.incline.on{
+    background: url(../img/incline-1.png) no-repeat left;
+    right: 0;
+}
+
+/* ----------------宸﹂儴---------------- */
+
+.container{
+    height: 100%;
+    position: fixed;
+    right: 0;
+    left: 60px;
+    z-index: 1;
+    min-width: 800px;
+    overflow: auto;
+}
+.cTitle{
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    background: #f7f7f7;
+    color: #03A1B9;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    padding-left: 23px;
+}
+
+.costType > span{
+    /*color: #03A1B9;*/
+}
+
+.costType{
+    position: relative;
+}
+
+.costType > ul{
+    width: 145px;
+    position: absolute;
+    top: 25px;
+    background: #fff;
+    border: 1px solid #03A1B9;
+    font-size: 12px;
+    display: none;
+    z-index: 9999;
+}
+
+.costType > ul > li{
+    text-align: center;
+    line-height: 26px;
+}
+.costType > ul > li:hover{
+    background: #03A1B9;
+    color: #fff;
+}
+
+.seleType{
+    width: 145px;
+    height: 26px;
+    border: 1px solid #03A1B9;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    background: #fff url(../img/ratio_x.png) no-repeat 130px;
+    font-size: 12px;
+}
+
+.date > input {
+    text-align: center;
+    border: 1px solid #03A1B9;
+    width: 150px;
+    height: 26px;
+    background: url("../img/date.png") no-repeat 125px;
+    /*background-size: 12%;*/
+
+}
+
+.topBox {
+    overflow: hidden;
+    margin-top: 12px;
+    clear: both;
+}
+
+.Sbox-left {
+    float: left;
+    margin-left: 26px;
+
+}
+
+.color-b4 {
+    /*color: #b4b4b4;*/
+    padding-bottom: 10px;
+}
+
+.iText {
+    border: 1px solid #03A1B9;
+    width: 145px;
+    height: 26px;
+}
+
+.siftingsBtn {
+    border: 0;
+    background-color: #03A1B9;
+    color: #fff;
+    line-height: 26px;
+    width: 70px;
+    height: 26px;
+}
+
+.excelBox {
+    clear: both;
+    padding: 10px 40px 5px 26px;
+}
+
+.excelBtn {
+    border: 0;
+    background-color: #03A1B9;
+    color: #fff;
+    line-height: 26px;
+    width: 130px;
+    height: 30px;
+    float: right;
+}
+
+.siftings-tab {
+    text-align: center;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+}
+
+.siftings-tab thead tr {
+    background-color: #ebebeb;
+}
+
+.siftings-tab thead tr th{
+    font-weight: bold;
+    height: 34px;
+}
+
+.siftings-tab tbody tr {
+    height: 55px;
+    border-bottom: 1px #fff solid;;
+}
+
+.icon-size {
+    width: 23px;
+}
+
+.ku {
+    clear: both;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.ku-p {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #03A1B9
+}
+
+.subTitle {
+    float: left;
+    line-height: 26px
+}
+
+.inputBox {
+    float: left;
+    margin-left: 12px
+}
+
+.p_title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 26px;
+    margin-top: 58px
+}
+
+/*鍒嗛〉鏍峰紡*/
+.MyPage {
+    font-size: 12px;
+    -moz-user-select:none;/*鐏嫄*/
+    -webkit-user-select:none;/*webkit娴忚鍣�/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*鏃╂湡娴忚鍣�/
+    user-select:none;
+}
+.font-b {
+    color: #03A1B9;
+}
+.font-w {
+    color: #fff;
+}
+.pageBtn {
+    padding: 5px 4px;
+    height: 18px;
+    background-color: #03A1B9;
+    border-radius: 2px;
+}
+.pageNum {
+    height: 24px;
+    width: 34px;
+    border: 1px solid #03A1B9;
+
+}
+.pagePointer {
+    cursor: pointer;
+}
+.mgn-5 {
+    margin-right: 5px;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+/*鍒嗛〉缁撴潫*/

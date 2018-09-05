@@ -1,0 +1,231 @@
+.content{
+	min-width: 905px;
+}
+
+.device_info{
+	font-size: 12px;
+	width: 100%;
+	height: 48px;
+}
+
+.dev_se{
+	float: left;
+}
+.info_txt{
+	float: right;
+	line-height: 30px;
+}
+.info_txt > p{
+	float: left;
+	margin-right: 40px;
+	position: relative;
+}
+.info_txt > p > span{
+	font-weight: bold;
+	margin-left: 5px;
+	font-size: 14px;
+}
+.wh_ts{
+	display: inline-block;
+	margin-left: 12px;
+}
+.info_txt.all > p:before{
+	content: '(鎬�';
+	font-style: italic;
+}
+
+.various{
+	height: 80px;
+	margin-top: 30px;
+}
+.var_box{
+	width: 20%;
+	height: 78px;
+	float: left;
+}
+.var_box > div{
+	width: 161px;
+	height: 78px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+.var_box > div > p{
+	width: 100%;
+	height: 33px;
+	border-radius: 5px;
+	color: #fff;
+	line-height: 33px;
+	font-weight: bold;
+}
+.var_box > div > span{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.independent{
+	border: 1px solid #00BCD4;
+}
+.independent > p{
+	background: #00BCD4;
+}
+.independent > span{
+	color: #00BCD4;
+}
+.register{
+	border: 1px solid #a3e259;
+}
+.register > p{
+	background: #a3e259;
+}
+.register > span{
+	color: #a3e259;
+}
+.pay{
+	border: 1px solid #ffd042;
+}
+.pay > p{
+	background: #ffd042;
+}
+.pay > span{
+	color: #ffd042;
+}
+.yesterday{
+	border: 1px solid #a3e259;
+}
+.yesterday > p{
+	background: #a3e259;
+}
+.yesterday > span{
+	color: #a3e259;
+}
+.real_time{
+	border: 1px solid #00BCD4;
+}
+.real_time > p{
+	background: #00BCD4;
+}
+.real_time > span{
+	color: #00BCD4;
+}
+
+
+.annular_chart{
+	height: 240px;
+	margin-top: 40px;
+}
+.annular_chart > span{
+	display: block;
+}
+.both{
+	width: 33.33%;
+	height: 220px;
+	cursor: pointer;
+	float: left;
+	position: relative;
+}
+.round{
+	width: 140px;
+	height: 140px;
+	border: 20px solid #f2f2f2;
+	border-radius: 50%;
+	margin: 0 auto;
+	top: 30px;
+	left: 30px;
+	color: #4c4c4c;
+	text-align: center;
+	font-size: 30px;
+	line-height: 100px;
+}
+.both>div{
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	width: 220px;
+	display: inline-block;
+	height: 15px;
+	line-height: 30px;
+	color: #00BCD4;
+	text-align: center;
+}
+#perception{
+	position: absolute;
+	padding: 0;
+	display: block;
+	left: 50%;
+	margin-left: -100px;
+	top: -28px;
+}
+#tryOut{
+	position: absolute;
+	padding: 0;
+	display: block;
+	left: 50%;
+	margin-left: -100px;
+	top: -28px;
+}
+#register{
+	position: absolute;
+	padding: 0;
+	display: block;
+	left: 50%;
+	margin-left: -100px;
+	top: -28px;
+}
+.perception .float{
+	left: 70px;
+	
+}
+.tryOut .float{
+	left: 85px;
+}
+.registers .float{
+	left: 85px;
+}
+/* --------------------------------------------- */
+
+/* ----------------------------------------------- */
+.userLineDraw{
+	margin-top: 40px;
+}
+
+/* ----------------------------------------------- */
+
+/* --------------------------------------------- */
+.pay_type{
+	margin-top: 40px;
+}
+/* ---------------------------------------------- */
+
+/* -------------------------------------------- */
+.income{
+	margin-top: 40px;
+}
+.slsq > .swicth{
+	margin: 0 30px;
+}
+/* --------------------------------------------- */
+
+/* --------------------------------------------- */
+.user_add{
+	margin-top: 40px;
+}
+.t_tit{
+	position: relative;
+}
+.t_tit img{
+	margin: 0 10px;
+}
+.t_tit .float{
+	left: 5px;
+}
+
+.t_tit .float{
+	left: 5px;
+}
+
+.slsq{
+	position: relative;
+}
+/* -------------------------------------------- */

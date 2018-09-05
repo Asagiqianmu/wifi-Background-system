@@ -1,0 +1,65 @@
+
+/*------------------------------------------------------------------
+
+[应用配置模板1 ]
+
+	Project:		商家后台
+	Version:		1.0
+	Auth:			PengL
+	Description:	限时抢购、网址导航、游戏中心配置页面
+	
+
+-------------------------------------------------------------------*/
+
+
+@charset "utf-8";
+
+.navWidget .content_pl {
+	padding: 30px 80px;
+	min-height: 360px;
+}
+
+.title_pl {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #848484;
+	padding-bottom: 7px;
+	border-bottom: 3px solid #848484;
+}
+
+.guide_pl {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #848484;
+	padding-top: 10px;
+}
+
+.msg_pl {
+	border-color: #4BCDD9;
+}
+
+.msg_pl strong {
+	float: left;
+}
+
+.msg_pl span {
+	color: #4BCDD9;
+}
+
+.widget-header .toParentBtn {
+	float: right;
+	line-height: 30px;
+	margin-right: 10px;
+	color: #2eafbb;
+}
+
+.toParentBtn a {
+	font-size: 14px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+.widget-header [class^="icon-"], .widget-header [class*=" icon-"] {
+	margin-right: 10px;
+	color: #2EAFBB;
+}

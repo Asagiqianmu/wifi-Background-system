@@ -1,0 +1,319 @@
+
+.label{
+	width: 480px;
+	height: 34px;
+	margin-left: 2%;
+	margin-top: 30px;
+}
+.label > li{
+	float: left;
+	width: 118px;
+	height: 32px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 34px;
+	cursor: pointer;
+	color: #ccc;
+}
+.label > li:hover{
+	color: #999;
+}
+.label > li.on{
+	width: 120px;
+	height: 34px;
+	background: #57c6d4;
+	color: #fff;
+	border: none;
+}
+.label > li.on:hover{
+	background: #5bd2e1;
+}
+hr{
+	width: 100%;
+	margin-left: 2%;
+	height: 6px;
+	border: none;
+	background: #e6e6e6;
+	margin-top: 8px;
+}
+.surplus{
+	width: 100%;
+	height: 50px;
+	border-bottom: 4px solid #e6e6e6;
+	border-top: 4px solid #e6e6e6;
+	background: #f5f5f5;
+	color: #999;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin: 5px 0 10px 2%;
+	position: relative;
+}
+
+.surplus > span{
+	color: #54cc47;
+	margin: 0 8px;
+}
+.surplus > em{
+	position: absolute;
+	font-style: normal;
+	color: #54cc47;
+	top: 0px;
+	font-size: 24px;
+	display: none;
+	right: 540px;
+}
+.details{
+	width: 100%;
+	height: 400px;
+	margin-left: 2%;
+	border-bottom: 4px solid #e6e6e6;
+	position: relative;
+}
+.details > img{
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	display: none;
+	z-index: 5;
+}
+.details > div{
+	width: 300px;
+	height: 380px;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+.details > div > h6{
+	color: #4c4c4c;
+}
+.image{
+	width: 100%;
+	height: 96%;
+	border: 2px solid #ccc;
+	margin-top: 6px;
+	cursor: pointer;
+}
+.image:hover{
+	border: 2px solid #5bd2e1;
+}
+.details > div > button{
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	display: none;
+	border-radius: 50%;
+	margin-top: -15px;
+	cursor: pointer;
+}
+.details > div:hover > button{
+	display: block;
+}
+.rotate0{
+	transform:rotate(0deg);
+}
+.rotate90{
+	transform:rotate(90deg);
+}
+.rotate270{
+	transform:rotate(270deg);
+}
+.rotate180{
+	transform:rotate(180deg);
+}
+.userinfo{
+	margin-left: 0px !important;
+}
+.userinfo > p{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 30px;
+}
+.userinfo > p > label{
+	color: #999;
+}
+.userinfo > p > span{
+	color: #333;
+}
+.phone{
+	background: url(../img/phone.png) no-repeat left;
+}
+.name{
+	background: url(../img/personagegreen.png) no-repeat left;
+}
+.userId{
+	background: url(../img/userId.png) no-repeat left;
+}
+.userPhoto{
+	margin-left: 80px !important;
+}
+.userPhoto > p{
+	background: url(../img/poto.png) no-repeat center;
+	background-size: contain;
+}
+.identityCard > p{
+	background: url(../img/poto.png) no-repeat center;
+	background-size: contain;
+}
+.anticlockwise{
+	left: 0;
+	background: rgba(0,0,0,0.6) url(../img/rotate.png) no-repeat;
+}
+.clockwise{
+	right: 0;
+	background: rgba(0,0,0,0.6) url(../img/rotate.png) no-repeat;
+	background-position: 0 -30px;
+}
+.operation{
+	margin-top: 10px;
+	margin-left: 2%;
+}
+.operation button{
+	width: 130px;
+	height: 30px;
+	cursor: pointer;
+}
+.pass{
+	border: none;
+	background: #57c6d4;
+	color: #fff;
+}
+.pass:hover{
+	background: #5bd2e1;
+}
+.fail{
+	border: 1px solid #57c6d4;
+	color: #57c6d4;
+	background: none;
+	margin-left: 20px;
+}
+.fail:hover{
+	border: 1px solid #5bd2e1;
+	color: #5bd2e1;
+}
+#binding{
+	width: 327px;
+	height: 279px;
+	margin: 70px auto;
+}
+#binding > p{
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	font-size: 12px;
+	position: relative;
+}
+#binding > p > label{
+	float: left;
+}
+#binding > p > input{
+	float: right;
+	width: 220px;
+	height: 30px;
+	margin-top: 10px;
+}
+#binding > p > button{
+	width: 100%;
+	height: 30px;
+	border: none;
+	background: #57c6d4;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+	margin-top: 12px;
+}
+#binding > p > span{
+	position: absolute;
+	left: 108px;
+	top: 25px;
+}
+.bigImg{
+	width: 760px;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -340px;
+}
+.bigImg > p{
+	width: 100%;
+	height: 100%;
+	background: #ccc no-repeat center;
+	background-size: contain;
+}
+.bigImg button{
+	width: 50px;
+	height: 50px;
+	border: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	cursor: pointer;
+	display: none;
+	border-radius: 50%;
+	background-size: 65%;
+}
+.rotaten{
+	right: 120px;
+	background: rgba(0,0,0,0.6) url(../img/rotates.png) center no-repeat;
+}
+.rotates{
+	left: 120px;
+	background: rgba(0,0,0,0.6) url(../img/rotaten.png) center no-repeat;
+}
+.bigImg:hover button{
+	display: block;
+}
+.gbimg{
+	text-align: center;
+	display: block;
+	z-index: 20;
+	font-size: 20px;
+	color: #fff;
+	right: -25px;
+	top: 0 !important;
+	background: rgba(0,0,0,0.6);
+	line-height: 50px;
+}
+
+.rzTit,
+.wrzTit{
+	width: 100%;
+	height: 40px;
+	background: #ededed;
+	color: #666;
+	font-size: 14px;
+	margin-left: 2%;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.rzTit > span,
+.wrzTit > span{
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+}
+.rzList,
+.wrzList{
+	margin-left: 2%;
+	width: 100%;
+	height: 400px;
+	overflow-y: auto;
+}
+.rzList > li,
+.wrzList > li{
+	height: 39px;
+	line-height: 40px;
+	border-bottom: 1px solid #ededed;
+}
+.rzList > li > span,
+.wrzList > li > span{
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+}

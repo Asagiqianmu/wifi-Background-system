@@ -1,0 +1,564 @@
+/* ----------------顶部---------------- */
+#header{
+	min-width: 800px;
+	width: 100%;
+	height: 60px;
+	background: #03A1B9;
+	line-height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+#header img{
+	width:auto;
+}
+.tip{
+	cursor: pointer;
+}
+.msg_title{
+	height: 60px;
+	line-height: 60px;
+}
+.msg_title img{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.msg_title > span{
+	color: #fff;
+	font-size: 16px;
+}
+.msg_title > span > i{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 10px;
+}
+.user_msg{
+	position: relative;
+}
+.user_msg img{
+	padding: 22px 10px ;
+}
+.user_phone{
+	width: 165px;
+	display: inline-block;
+	padding-right: 15px;
+	color: #fff;
+	text-align: center;
+}
+.user_phone:hover{
+	background: #4cadb9;
+}
+.msg_tip{
+	margin: auto 15px;
+	cursor: pointer;
+}
+.menu{
+	width: 165px;
+	background: #03A1B9;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	display: none;
+}
+.menu > li{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+}
+.menu > li.exit{
+	background: url(../img/exit.png) no-repeat 12px center;
+	background-size: 15px;
+}
+.menu > li.personageCenter{
+	background: url(../img/personageCenter.png) no-repeat 12px center;
+	background-size: 12px;
+}
+.menu > li.exit:hover{
+	background: #4cadb9 url(../img/exit.png) no-repeat 12px center;
+	background-size: 15px;
+}
+.menu > li.personageCenter:hover{
+	background: #4cadb9 url(../img/personageCenter.png) no-repeat 12px center;
+	background-size: 12px;
+}
+.user_phone:hover > .menu{
+	display: block;
+}
+/* ----------------顶部---------------- */
+/* ----------------左部---------------- */
+#leftNav{
+	width: 160px;
+	height: 100%;
+	background: #ccc;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	border-right: 2px solid #777;
+}
+#leftNav.on{
+	width: 60px;
+}
+.module{
+	width: 100%;
+	height: 42px;
+	margin-top: 60px;
+	display: inline-block;
+	background: url(../img/module.png) no-repeat center;
+}
+
+.module:hover{
+	background: #777 url(../img/module.png) no-repeat center;
+}
+.linkList{
+	width: 100%;
+	color: #fff;
+}
+.linkList > li{
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	position: relative;
+}
+#leftNav.on li > span{
+	display: none;
+}
+.linkList img{
+	margin: 18px 18px 0 18px;
+}
+.linkList > li:hover{
+	background: #777;
+}
+.linkList > li.on{
+	background: #777;
+}
+.linkList > li > p{
+	position: absolute;
+	width: 100px;
+	background: #777;
+	height: 58px;
+	text-align: center;
+	line-height: 58px;
+	top: 0px;
+	left: 75px;
+	display: none;
+}
+.linkList > li > p:before{
+	content: '';
+	display: block;
+	width: 8px;
+	height: 10px;
+	background: url(../img/sm_lf.png) no-repeat right;
+	position: absolute;
+	top: 24px;
+	left: -8px;
+}
+#leftNav.on li:hover > p{
+	display: block;
+}
+.incline{
+	width: 15px;
+	height: 40px;
+	position: absolute;
+	background: url(../img/incline.png) no-repeat right;
+	top: 50%;
+	right: -17px;
+	transition: .25s;
+	z-index: 1;
+	border-left: 2px;
+	cursor: pointer;
+}
+.incline:hover{
+	width: 25px;
+	right: -27px;
+}
+.incline.on{
+	background: url(../img/incline-1.png) no-repeat left;
+	right: 0;
+}
+
+/* ----------------左部---------------- */
+/* ----------------内容---------------- */
+.container{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	min-width: 800px;
+	overflow: auto;
+}
+.cTitle{
+	width: 100%;
+	height: 54px;
+	line-height: 54px;
+	background: #f7f7f7;
+	color: #03A1B9;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 60px;
+}
+
+.cTitle > span{
+	margin-left: 83px;
+}
+.cTitle.on > span{
+	margin-left: 183px;
+} 
+.content{
+	min-height: 500px;
+	width: 90%;
+	margin-left: 95px;
+	margin-top: 10px;
+	color: #666;
+}
+.content.on{
+	margin-left: 195px;
+	width: 80%;
+}
+.tab{
+	line-height: 30px;
+	height: 40px;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+}
+.tab > span{
+	margin: 0 10px;
+}
+.tab > span:hover{
+	color: #03A1B9;
+}
+.tab > span.on{
+	height: 36px;
+	border-bottom: 4px solid #03A1B9;
+	display: inline-block;
+	color: #03A1B9;
+	line-height: 36px;
+}
+.query{
+	height: 32px;
+	margin-top: 15px;
+}
+.query > p{
+	float: left;
+}
+.query > p > input,
+.date > input{
+	text-align: center;
+	border: 1px solid #03A1B9;
+	width: 150px;
+	height: 32px;
+	margin: 0 10px;
+}
+.date > select{
+	width: 150px;
+	height: 32px;
+	text-align: center;
+	border: 1px solid #03A1B9;
+}
+.date > select,
+.date > select > option{
+	padding-left: 20px;
+}
+.query > p > button,
+.dateQuery{
+	width: 80px;
+	height: 32px;
+	background: #03A1B9;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.date{
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+.inDay{
+	margin-top: 20px;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.inDay > span{
+	color: #03A1B9;
+}
+.tabTi{
+	height: 40px;
+	background: #f4f4f4;
+	line-height: 40px;
+	margin-top: 5px;
+}
+.tabTi > span{
+	width: 30%;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+}
+.tabNr{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #f4f4f4;
+}
+.tabNr > span{
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+}
+
+.bygoneDay{
+	font-size: 12px;
+}
+.bygoneDay > span{
+	color: #03A1B9;
+}
+.byTabTi{
+	height: 40px;
+	background: #f4f4f4;
+	line-height: 40px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+.byTabTi > span{
+	width: 11.111%;
+	text-align: center;
+	display: inline-block;
+}
+.byList > li{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #f4f4f4;
+}
+.byList > li > span{
+	width: 11.111%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+.byList > li > span > button{
+	padding: 3px 6px;
+	border: none;
+	background: #03A1B9;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.zonge{
+	margin-top: 10px;
+}
+.zonge > span{
+	color: #03A1B9;
+	font-weight: bold;
+}
+.info{
+	margin-top: 8px;
+}
+.info > span{
+	color: #03A1B9;
+	margin-bottom: 5px;
+}
+.info > div{
+	height: 38px;
+	line-height: 38px;
+	background: #f2f2f2;
+	color: #666;
+	margin-top: 10px;
+}
+.info > div > img{
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin: 5px 30px;
+}
+.info > div > p{
+	float: left;
+	font-weight: bold;
+	margin: 0 20px;
+}
+.neiro .tabTi > span,
+.neiro .tabNr > span{
+	width: 16.666%;
+}
+.neiro .byTabTi > span,
+.neiro .byList > li > span{
+	width: 14.28%;
+}
+
+.neiro{
+	display: none;
+}
+/* ----------------内容---------------- */
+
+/* ----------------分页---------------- */
+.pager{
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+	display: inline-block;
+	font-size: 12px;
+}
+.page_pre{
+	line-height:17px;
+	padding:0px 3px;
+	cursor: pointer;
+}
+.page_next{
+	line-height:17px;
+	cursor: pointer;
+	padding:0px 3px;
+}
+.pager a,
+.page_pre,
+.page_next{
+	border: 1px solid #03A1B9;
+	display: inline-block;
+   	text-align: center;
+   	margin-right: 5px;
+   	vertical-align: middle;
+   	min-width: 23px;
+   	height: 22px;
+   	line-height: 18px;
+   	padding: 0 3px;
+}
+.pager a:hover,
+.page_pre:hover,
+.page_next:hover{
+	background: #03A1B9;
+	color: #fff;
+}
+.pager a.on{
+	background: #03A1B9;
+	color: #fff;
+}
+.page_to{
+	display: inline-block;
+	border: 1px solid #03A1B9;
+	width: 40px;
+	height: 23px;
+   	line-height: 23px;
+   	font-size: 12px;
+   	margin-top: 5px;
+   	padding-bottom: 3px;
+   	padding-left: 5px;
+}
+.skip{
+	background: #fff;
+	border: 1px solid #03A1B9;
+	border-radius: 3px;
+	color: #03A1B9;
+   	padding:3px 6px;
+   	vertical-align: middle;
+   	margin-left: 10px;
+}
+.skip:hover{
+	background: #03A1B9;
+	color: #fff;
+}
+
+.ratio{
+	width: 72px;
+	height: 26px;
+	display: inline-block;
+	border: 1px solid #03A1B9;
+	background: url(../img/ratio_x.png) no-repeat 60px;
+	text-align: center;
+	line-height: 26px;
+	color: #03A1B9;
+}
+.raList{
+	width: 72px;
+	border: 1px solid #03A1B9;
+	position: absolute;
+	left: 50%;
+	margin-left: -36px;
+	top: 52px;
+	color: #03A1B9;
+	background: #fff;
+	z-index: 1;
+	display: none;
+}
+.raList > li{
+	height: 26px;
+	line-height: 26px;
+}
+.raList > li:hover{
+	background: #03A1B9;
+	color: #fff;
+}
+/* ----------------分页---------------- */
+
+/* ----------------侧拉----------------- */
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	position: fixed;
+	z-index: 10;
+	display: none;
+}
+.m_content{
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 20%;
+	background: #fff;
+	font-size: 14px;
+	color: #666;
+	overflow: auto;
+}
+.m_title{
+	background: #f7f7f7;
+	color: #03A1B9;
+	font-weight: bold;
+	height: 60px;
+	text-indent: 20px;
+	line-height: 60px;
+	font-size: 14px;
+}
+.m_title > span{
+	float: right;
+	margin-right: 20px;
+	margin-top: 22px;
+}
+.toDateList{
+	width: 90%;
+	margin: 20px auto;
+}
+.toTit{
+	font-size: 14px;
+}
+.toTit > span{
+	color: #03A1B9;
+	font-weight: bold;
+	margin: 0 3px;
+}
+.listTit{
+	height: 40px;
+	background: #f4f4f4;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.listTit > span{
+	width: 16.666%;
+	display: inline-block;
+	text-align: center;
+}
+.toList > li{
+	height: 40px;
+	border-bottom: #f4f4f4;
+	line-height: 40px;
+}
+.toList > li > span{
+	width: 16.666%;
+	display: inline-block;
+	text-align: center;
+}
+/* ----------------侧拉----------------- */

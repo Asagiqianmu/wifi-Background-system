@@ -1,0 +1,33 @@
+.ft{font-family: 微软雅黑;}
+.tests{border:solid 1px }
+.content_top{width:840px; height:470px; clear:both;}
+.content_bottom{width:840px; height:35px; padding-left:200px;}
+.content_top_left{width:580px; height:483px; float:left; border:solid 1px #ccc; position: relative;}
+.content_top_riht{width:255px; height:470px; float:left;}
+.img_top_world1{padding-left:10px; margin-top:20px;}
+.img_top_model{width:240px; height:200px; margin-left:15px; margin-top:10px;}
+.content_logo{width:560px; height:280px; background-color:#bbbbbb; margin:10px; position: relative;}
+.coohse{position: absolute;left: 0;right: 0;bottom: 0;height: 60px;background: rgba(0,0,0,0.6);font-size: 24px;line-height: 60px;color: #fff;}
+.img_addactivity{position: absolute; left:240px;top:80px;}
+.img_hot{position: absolute;right: -6px;top: -6px;width: 100px;height: 100px;z-index: 20;}
+.img_hot span {position: absolute;right: -16px;top: 0;transform: rotate(45deg);-webkit-transform: rotate(45deg);line-height: 70px;text-align: center;width: 100px;}
+.img_hot i{color: #fff;font-size: 15px;}
+.activity_topic{ font-size:18px; padding-left:15px;}
+.content_top_left a{color:#D2DBDB; font-size:18px;}
+.activity_name{width:580px; height:50px; clear:both;}
+.activity_store_name1{width:150px; height:35px; float:left; padding-left:11px; padding-top:5px;}
+.activity_input_name{width:300px; height:35px; float:left;}
+.chseDate{padding-left:11px;}
+.txt_content{ padding-top:10px;}
+.txtarea_content{ width:570px; height:74px; resize: none;}
+.startTime{background: none; cursor: pointer; color: black;}
+.endTime{background: none; cursor: pointer; color: black;}
+.modal_sign_msg{padding-left:68px; color:red;}
+.modal_sign_img{position: relative;}
+.modal_sign_img span{width:30px; height:30px;}
+.hot1_img{position: absolute;}
+.world_signs{color: #fff;font-size: 24px;}
+.world_red{color:red;}
+.question_world{width:570px; text-align:right;}
+#load_images{width:900px; height:596px;}
+

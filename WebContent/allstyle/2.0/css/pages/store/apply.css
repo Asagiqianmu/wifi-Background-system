@@ -1,0 +1,128 @@
+@CHARSET "UTF-8";
+
+/* ---------------左侧菜单-------------- */
+#main-nav.nav-tabs.nav-stacked>#webManage {
+	margin-bottom: 0px
+}
+
+#main-nav.nav-tabs.nav-stacked>#webManage>a {
+	border-radius: 5px 5px 0px 0px
+}
+/* ---------------左侧菜单-------------- */
+
+.apply_img{
+	width: 48px;
+}
+
+.span2 {
+	text-align: center;
+}
+
+.span2 img {
+	margin-top: 5px;
+}
+
+.span2 button, .span2 p {
+	margin: 7px 0px 7px 0px;
+}
+
+.span6 img {
+	margin: 10px;
+}
+
+.span6Btn {
+	padding-top: 18px;
+}
+
+.rowBorder {
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.applySon .widget-content {
+	background-color: #F7F7F7;
+}
+
+#sortApply  .row-fluid {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contentTop0 {
+	padding-top: 0px;
+}
+
+#applyDiv2 {
+	padding-left: 50px;
+	padding-top: 30px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top: 0px;
+	display: none;
+}
+
+.h3Border {
+	border-bottom: 3px solid #2EAFBB;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.sortH3Border {
+	border-bottom: 3px solid #2EAFBB;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 0px 40px;
+}
+
+.sortH3Border2 {
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 0px 40px;
+}
+
+#sortApply .widget-header h3 {
+	cursor: pointer;
+}
+
+#sortApply .span5 {
+	text-align: center;
+}
+
+/* .status2 { */
+/* 	background-color: #C2C2C2; */
+/* 	background-image: -moz-linear-gradient(center top, #C2C2C2, #C2C2C2); */
+/* } */
+
+/* .status2:hover { */
+/* 	background-color: #FBFBFB; */
+/* 	background-image: -moz-linear-gradient(center top, #FBFBFB, #FBFBFB); */
+/* } */
+
+.buyDiv p {
+	padding: 4px 10px;
+}
+
+.radio.inline, .checkbox.inline {
+	padding-top: 0px;
+	font: 13px/1.7em "Open Sans", arial, sans-serif;
+}
+
+.radio+.radio, .checkbox+.checkbox {
+	margin-top: 0px;
+	font: 13px/1.7em "Open Sans", arial, sans-serif;
+}
+
+#msgToBuyApply {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#msgToBuyApply img {
+	margin-right: 50px;
+}
+
+#sortHot, #byMonth {
+	display: none;
+}

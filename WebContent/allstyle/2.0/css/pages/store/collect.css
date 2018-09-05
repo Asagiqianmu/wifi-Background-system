@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+#sAuth, #sDecorate, #sApply {
+	display: none;
+}
+
+#webManage {
+	margin-bottom: 4px;
+}
+
+#webManage a {
+	border-radius: 5px;
+}
+
+.collectOperate {
+	display: none;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly],
+	select[readonly], textarea[readonly] {
+	background-color: #fff;
+	cursor: pointer;
+}

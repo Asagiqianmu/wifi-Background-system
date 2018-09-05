@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+/* ---------------左侧菜单-------------- */
+#main-nav.nav-tabs.nav-stacked>#webManage {
+	margin-bottom: 0px
+}
+
+#main-nav.nav-tabs.nav-stacked>#webManage>a {
+	border-radius: 5px 5px 0px 0px
+}
+/* ---------------左侧菜单-------------- */
+#loginY {
+	border-top: medium none;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.widget {
+	margin-bottom: 1em;
+}
+
+.otherS {
+	display: none;
+}
+
+.loginSetting {
+	display: none;
+}
+
+.step {
+	float: left;
+	padding-left: 20px;
+}
+
+.previewImg {
+	width: 60%;
+	height: 60%;
+}
+
+.settingBtn {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#loginY, .settingP {
+	display: none;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly],
+	select[readonly], textarea[readonly] {
+	background-color: #fff;
+	cursor: default;
+}
+
+#telStatus{
+	display: none;
+}

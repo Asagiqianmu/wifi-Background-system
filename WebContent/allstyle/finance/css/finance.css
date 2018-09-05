@@ -1,0 +1,584 @@
+/* ----------------顶部---------------- */
+#header{
+	min-width: 800px;
+	width: 100%;
+	height: 60px;
+	background: #03A1B9;
+	line-height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+#header img{
+	width:auto;
+}
+.tip{
+	cursor: pointer;
+}
+.msg_title{
+	height: 60px;
+	line-height: 60px;
+}
+.msg_title img{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.msg_title > span{
+	color: #fff;
+	font-size: 16px;
+}
+.msg_title > span > i{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 10px;
+}
+.user_msg{
+	position: relative;
+}
+.user_msg img{
+	padding: 22px 10px ;
+}
+.user_phone{
+	width: 165px;
+	display: inline-block;
+	padding-right: 15px;
+	color: #fff;
+	text-align: center;
+}
+.user_phone:hover{
+	background: #4cadb9;
+}
+.msg_tip{
+	margin: auto 15px;
+	cursor: pointer;
+}
+.menu{
+	width: 165px;
+	background: #03A1B9;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	display: none;
+}
+.menu > li{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+}
+.menu > li.exit{
+	background: url(../img/exit.png) no-repeat 12px center;
+	background-size: 15px;
+}
+.menu > li.personageCenter{
+	background: url(../img/personageCenter.png) no-repeat 12px center;
+	background-size: 12px;
+}
+.menu > li.exit:hover{
+	background: #4cadb9 url(../img/exit.png) no-repeat 12px center;
+	background-size: 15px;
+}
+.menu > li.personageCenter:hover{
+	background: #4cadb9 url(../img/personageCenter.png) no-repeat 12px center;
+	background-size: 12px;
+}
+.user_phone:hover > .menu{
+	display: block;
+}
+/* ----------------顶部---------------- */
+/* ----------------左部---------------- */
+#leftNav{
+	width: 160px;
+	height: 100%;
+	background: #ccc;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	border-right: 2px solid #777;
+}
+#leftNav.on{
+	width: 60px;
+}
+.module{
+	width: 100%;
+	height: 42px;
+	margin-top: 60px;
+	display: inline-block;
+	background: url(../img/module.png) no-repeat center;
+}
+
+.module:hover{
+	background: #777 url(../img/module.png) no-repeat center;
+}
+.linkList{
+	width: 100%;
+	color: #fff;
+}
+.linkList > li{
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	position: relative;
+}
+#leftNav.on li > span{
+	display: none;
+}
+.linkList img{
+	margin: 18px 18px 0 18px;
+}
+.linkList > li:hover{
+	background: #777;
+}
+.linkList > li.on{
+	background: #777;
+}
+.linkList > li > p{
+	position: absolute;
+	width: 100px;
+	background: #777;
+	height: 58px;
+	text-align: center;
+	line-height: 58px;
+	top: 0px;
+	left: 75px;
+	display: none;
+}
+.linkList > li > p:before{
+	content: '';
+	display: block;
+	width: 8px;
+	height: 10px;
+	background: url(../img/sm_lf.png) no-repeat right;
+	position: absolute;
+	top: 24px;
+	left: -8px;
+}
+#leftNav.on li:hover > p{
+	display: block;
+}
+.incline{
+	width: 15px;
+	height: 40px;
+	position: absolute;
+	background: url(../img/incline.png) no-repeat right;
+	top: 50%;
+	right: -17px;
+	transition: .25s;
+	z-index: 1;
+	border-left: 2px;
+	cursor: pointer;
+}
+.incline:hover{
+	width: 25px;
+	right: -27px;
+}
+.incline.on{
+	background: url(../img/incline-1.png) no-repeat left;
+	right: 0;
+}
+
+/* ----------------左部---------------- */
+/* ----------------内容---------------- */
+.container{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	min-width: 800px;
+	overflow: auto;
+}
+.cTitle{
+	width: 100%;
+	height: 54px;
+	line-height: 54px;
+	background: #f7f7f7;
+	color: #03A1B9;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 60px;
+}
+
+.cTitle > span{
+	margin-left: 83px;
+}
+.cTitle.on > span{
+	margin-left: 183px;
+} 
+.content{
+	min-height: 500px;
+	width: 90%;
+	margin-left: 95px;
+	margin-top: 10px;
+}
+.content.on{
+	margin-left: 195px;
+	width: 80%;
+}
+.tabBox{
+	height: 40px;
+}
+.tab{
+	line-height: 40px;
+	height: 40px;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+}
+.tab > span{
+	margin: 0 10px;
+}
+.tab > span:hover{
+	color: #03A1B9;
+}
+.tab > span.on{
+	height: 36px;
+	border-bottom: 4px solid #03A1B9;
+	display: inline-block;
+	color: #03A1B9;
+	line-height: 36px;
+}
+.queryInp{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+}
+.queryInp > p{
+	width: 220px;
+	height: 40px;
+	position: relative;
+}
+.queryInp > p > input{
+	width: 100%;
+	height: 40px;
+	text-indent: 15px;
+	background: #f2f2f2;
+}
+.queryInp > p > button{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background: url(../img/queryb.png) no-repeat center;
+	top: 0;
+	right: 0;
+	border: none;
+	cursor: pointer;
+}
+.default{
+	position: relative;
+}
+.default > p{
+	height: 40px;
+	background: #f2f2f2;
+	padding: 0 5px;
+	font-size: 12px;
+	line-height: 40px;
+	color: #666;
+}
+.default > p > span{
+	color: #03A1B9;
+}
+.default > p > button{
+	margin-left: 18px;
+	background: #03A1B9;
+	color: #fff;
+	border: none;
+	font-size: 12px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.pljs{
+	width: 100%;
+	height: 40px;
+	background: #f6f6f6;
+	border: 2px solid #f2f2f2;
+	position: relative;
+	margin-top: 20px;
+}
+.contList{
+	margin-top: 2px;
+	font-size: 12px;
+	display: table;
+}
+.contList > thead{
+	color: #666;
+	font-weight: bold;
+	font-size: 12px;
+	background: #f4f4f4;
+}
+.contList > thead th.short{
+	width: 10%;
+	height: 40px;
+}
+.contList > thead th.long{
+	width: 20%;
+}
+.contList > tbody{
+	color: #666;
+}
+.contList > tbody tr{
+	height: 36px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.bottomTab{
+	height: 44px !important;
+	border: 2px solid #ededed;
+	background: #f6f6f6;
+}
+.bottomTab > td{
+	height: 40px !important;
+}
+.contList td{
+	text-align: center;
+}
+.contList td > img{
+	display: block;
+	margin: 0 auto;
+}
+
+.wrench{
+	color: #03A1B9;
+}
+.wrench > img{
+	display: inline-block !important;
+	margin-left: 10px !important;
+}
+.batch{
+	display: block;
+	width: 137px;
+	height: 28px;
+	border: 1px solid #03A1B9;
+	line-height: 28px;
+	background: #fff url(../img/batch.png) no-repeat 5px;
+	color: #03A1B9;
+	text-align: center;
+	font-size: 12px;
+}
+.setBtn{
+	width: 100px;
+	height: 30px;
+	background: #03A1B9;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	border: none;
+	margin-left: 30px;
+	margin-top: 3px;
+}
+
+.posi{
+	position: relative;
+}
+.batchList{
+	border: 1px solid #03A1B9;
+	background: #fff;
+	width: 137px;
+	position: absolute;
+	top: -270px;
+	display: none;
+}
+.batchList > li{
+	height: 30px;
+	line-height: 30px;
+	color: #03A1B9;
+	cursor: pointer;
+}
+.batchList > li:hover{
+	background: #03A1B9;
+	color: #fff;
+}
+.crBox,
+.deBox,
+.agBox{
+	font-size: 12px;
+	width: 209px;
+	height: 135px;
+	background: #fff;
+	border: 1px solid #03A1B9;
+	position: absolute;
+	top: 60px;
+	right: 60px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px 1px #ccc;
+	padding: 10px 20px;
+	display: none;
+	z-index: 2;
+}
+.deBox{
+	top: 40px;
+	right: 0;
+}
+.agBox{
+	top: 30px;
+	left: 0;
+}
+.crt,
+.drt,
+.art{
+	display: block;
+	text-align: left !important;
+	margin-bottom: 5px;
+}
+.crBox > p,
+.deBox > p,
+.agBox > p{
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 5px
+}
+.crBox input,
+.deBox input,
+.agBox input{
+	width: 140px;
+	height: 34px;
+	border: 1px solid #03A1B9;
+}
+.msg{
+	display: block;
+	text-align: left;
+	color: red;
+}
+.crBox > p > button,
+.deBox > p > button,
+.agBox > p > button{
+	width: 60px;
+	height: 24px;
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 5px;
+}
+.crBox > p > button:nth-child(1),
+.deBox > p > button:nth-child(1),
+.agBox > p > button:nth-child(1){
+	background: #03A1B9;
+	color: #fff;
+	border: none;
+}
+.crBox > p > button:nth-child(2),
+.deBox > p > button:nth-child(2),
+.agBox > p > button:nth-child(2){
+	background: #fff;
+	color: #03A1B9;
+	border: 1px solid #03A1B9;
+	line-height: 22px;
+}
+.afford{
+	display: none;
+}
+.school{
+	padding: 10px 20px;
+	border: 1px solid #03A1B9;
+	font-size: 12px;
+	color: #666;
+	position: absolute;
+	background: #fff;
+	left: 20px;
+	top: 32px;
+	border-radius: 5px;
+	display: none;
+	z-index: 2
+}
+.duo:hover .school{
+	display: block;
+}
+/* ----------------内容---------------- */
+
+/* ----------------分页---------------- */
+.pager{
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+	display: inline-block;
+	font-size: 12px;
+}
+.page_pre{
+	line-height:17px;
+	padding:0px 3px;
+}
+.page_next{
+	line-height:17px;
+	padding:0px 3px;
+}
+.pager a{
+	border: 1px solid #03A1B9;
+	display: inline-block;
+   	text-align: center;
+   	margin-right: 5px;
+   	vertical-align: middle;
+   	min-width: 23px;
+   	height: 22px;
+   	line-height: 18px;
+   	padding: 0 3px;
+}
+.pager a:hover{
+	background: #03A1B9;
+	color: #fff;
+}
+.pager a.on{
+	background: #03A1B9;
+	color: #fff;
+}
+.page_to{
+	display: inline-block;
+	border: 1px solid #03A1B9;
+	width: 40px;
+	height: 23px;
+   	line-height: 23px;
+   	font-size: 12px;
+   	margin-top: 5px;
+   	padding-bottom: 3px;
+   	padding-left: 5px;
+}
+.skip{
+	background: #fff;
+	border: 1px solid #03A1B9;
+	border-radius: 3px;
+	color: #03A1B9;
+   	padding:3px 6px;
+   	vertical-align: middle;
+   	margin-left: 10px;
+}
+.skip:hover{
+	background: #03A1B9;
+	color: #fff;
+}
+
+.ratio{
+	width: 72px;
+	height: 26px;
+	display: inline-block;
+	border: 1px solid #03A1B9;
+	background: url(../img/ratio_x.png) no-repeat 60px;
+	text-align: center;
+	line-height: 26px;
+	color: #03A1B9;
+}
+.raList{
+	width: 72px;
+	border: 1px solid #03A1B9;
+	position: absolute;
+	left: 50%;
+	margin-left: -36px;
+	top: 52px;
+	color: #03A1B9;
+	background: #fff;
+	z-index: 1;
+	display: none;
+}
+.raList > li{
+	height: 26px;
+	line-height: 26px;
+}
+.raList > li:hover{
+	background: #03A1B9;
+	color: #fff;
+}
+
+/* ----------------分页---------------- */

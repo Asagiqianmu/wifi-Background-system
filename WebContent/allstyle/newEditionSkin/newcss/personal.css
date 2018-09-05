@@ -1,0 +1,354 @@
+.cont_title{
+	margin-top: 10px;
+	height: 30px;
+	color: #333;
+	line-height: 30px;
+}
+.l_txt{
+	color: #03A1B9;
+}
+
+/* 璧勬枡鏄剧ず */
+.inform{
+	width: 100%;
+	margin-top: 10px;
+	height: 285px;
+	font-size: 12px;
+	border-bottom: 2px solid #c9edf1;
+	color: #666;
+}
+.inform > div{
+	width: 50%;
+	height: 50px;
+	float: left;
+	margin: 10px 0;
+	line-height: 50px;
+}
+.inform > div label{
+	width: 20%;
+	height: 50px;
+	display: inline-block;
+	text-align: right;
+}
+.inform > div span{
+	width: 75%;
+	display: inline-block;
+	height: 50px;
+	text-align: left;
+	float: right;
+}
+.inform > div img{
+	width: 50px;
+}
+/* 璧勬枡鏄剧ず */
+
+/* 璐﹀彿瀵嗙爜 */
+.safety{
+	height: 80px;
+	line-height: 50px;
+	border-bottom: 2px solid #c9edf1;
+	color: #666;
+	font-size: 12px;
+}
+.tx_phone,
+.userPass,
+.userName{
+	width: 33.33%;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+.tou{
+	margin: 0 15px;
+}
+.edit_txp,
+.edit_pas{
+	margin-left: 10px;
+}
+.tx_phone{
+	padding-top: 5px;
+	text-align: left;
+	line-height: 20px;
+}
+/* 璐﹀彿瀵嗙爜 */
+
+/* 鏀舵璐﹀彿鍒楄〃 */
+.sk_info{
+	width: 100%;
+	color: #666;
+	font-size: 12px;
+}
+.sk_info > p{
+	background: #f4f4f4;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+}
+.sk_info span{
+	display: inline-block;
+	width: 33.333%;
+	text-align: center;
+}
+.sk_list{
+	height: 120px;
+	overflow-y: auto;
+}
+.sk_info li{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #f4f4f4;
+}
+.sk_info li img{
+	margin: 16px 50px;
+	float: right;
+}
+/* 鏀舵璐﹀彿鍒楄〃 */
+
+/* 缂栬緫涓汉璧勬枡 */
+.edit_info{
+	width: 525px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: -525px;
+	z-index: 1000;
+	background: #fff;
+	display: none;
+}
+.e_title{
+	height: 50px;
+	color: #03A1B9;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 15px;
+	line-height: 50px;
+	background: #f7f7f7;
+}
+.e_title img{
+	float: right;
+	margin-top: 17px;
+	margin-right: 17px;
+}
+
+.sel_photo{
+	width: 95%;
+	margin: 0 auto;
+	height: 90px;
+	margin-top: 30px;
+}
+.photo_list{
+	width: 90%;
+	height: 87px;
+	float: right;
+}
+.photo_list > li{
+	width: 25%;
+	height: 87px;
+	text-align: center;
+	position: relative;
+	float: left;
+}
+.pd_xd{
+	position: absolute;
+	bottom: 5px;
+	right: 18px;
+}
+
+.edit_inp{
+	width: 95%;
+	margin: 40px auto;
+	height: 30px;
+	font-size: 12px;
+}
+.edit_inp > label{
+	width: 30%;
+	display: inline-block;
+	text-align: right;
+	line-height: 30px;
+	height: 30px;
+	float: left;
+}
+.edit_inp > input{
+	width: 50%;
+	height: 100%;
+	border: 1px solid #03A1B9;
+	text-indent: 15px;
+	float: right;
+	margin-right: 10%;
+}
+.btn_box{
+	position: absolute;
+	bottom: 20px;
+	width: 50%;
+	left: 25%;
+}
+/* 缂栬緫涓汉璧勬枡 */
+
+/* 娣诲姞閾惰鍗″彿 */
+.cg_tx_phone,
+.cg_pass,
+.add_ask_for{
+	width: 426px;
+	height: 526px;
+	background: #fff;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	display: none;
+	z-index: 1000;
+	font-size: 12px;
+	margin-left: -213px;
+	margin-top: -163px;
+}
+.ax_tit{
+	height: 40px;
+	color: #03A1B9;
+	font-weight: bold;
+	background: #f7f7f7;
+	line-height: 40px;
+	padding-left: 20px;
+	letter-spacing: 1px;
+}
+.ax_tit > img{
+	float: right;
+	margin-top: 12px;
+	margin-right: 12px;
+}
+.add_p{
+	width: 80%;
+	height: 30px;
+	margin: 10px auto;
+	line-height: 30px;
+}
+.add_p > label{
+	width: 25%;
+	text-align: right;
+	display: inline-block;
+	float: left;
+}
+.add_p > span{
+	width: 70%;
+	display: inline-block;
+	float: right;
+}
+.add_p > span i{
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+.add_p > span > i:before{
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	content: '';
+	border: 2px solid #03A1B9;
+	border-radius: 50%;
+	left: 23px;
+	top: 8px;
+}
+.add_p > span > i.on:after{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: #03A1B9;
+	border-radius: 50%;
+	left: 28px;
+	top: 13px;
+}
+.add_p > input{
+	width: 70%;
+	height: 100%;
+	border: 1px solid #03A1B9;
+	float: right;
+}
+.cg_tx_phone .btns,
+.cg_pass .btns,
+.add_ask_for .btns{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.zf{
+	display: none;
+}
+/* 娣诲姞閾惰鍗″彿 */
+
+/* 淇敼鐧诲綍瀵嗙爜 */
+
+.cg_inp{
+	width: 80%;
+	height: 27px;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.cg_inp label{
+	width: 20%;
+	text-align: right;
+	display: inline-block;
+}
+.cg_inp input{
+	width: 75%;
+	height: 30px;
+	border: 1px solid #03A1B9;
+	float: right;
+	text-indent: 15px;
+}
+.vd_pass{
+	height: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+.vd_pass p{
+	width: 75%;
+	float: right;
+}
+.vd_pass span{
+	width: 39px;
+	height: 4px;
+	border-right: 3px;
+	background: #e0e0e0;
+	display: inline-block;
+	margin: 0 8px;
+}
+.vd_pass.ruo span.one{
+	background: #fe7f6e;
+}
+.vd_pass.zhong span.one{
+	background: #fec66e;
+}
+.vd_pass.zhong span.tow{
+	background: #fec66e;
+}
+.vd_pass.qiang span.one{
+	background: #03A1B9;
+}
+.vd_pass.qiang span.tow{
+	background: #03A1B9;
+}
+.vd_pass.qiang span.three{
+	background: #03A1B9;
+}
+/* 淇敼鐧诲綍瀵嗙爜 */
+
+/* 淇敼鎻愮幇鎵嬫満鍙�*/
+.cg_tx_phone{
+	display: none;
+}
+.cg_tx_phone .cg_inp{
+	position: relative;
+	margin-top: 30px;
+}
+.cg_inp button{
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+/* 淇敼鎻愮幇鎵嬫満鍙�*/
+
+ 

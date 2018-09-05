@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+/* 校园卡 */
+
+/* 页面加载时，除了列表之外的模块隐藏 */
+
+
+.pre_msg {
+	border-color: #4BCDD9;
+}
+
+.pre_msg strong {
+	float: left;
+}
+
+.pre_msg span {
+	color: #4BCDD9;
+}

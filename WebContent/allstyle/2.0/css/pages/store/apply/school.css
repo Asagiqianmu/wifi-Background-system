@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+/* 校园卡 */
+
+/* 页面加载时，除了列表之外的模块隐藏 */
+.campusOperate {
+	display: none;
+}
+
+.select2-container {
+	margin-left: 0px;
+}
+
+.pre_msg {
+	border-color: #4BCDD9;
+}
+
+.pre_msg strong {
+	float: left;
+}
+
+.pre_msg span {
+	color: #4BCDD9;
+}
+
+.addBtn {
+	font-size: 14px;
+	margin-right: 20px;
+	float: right;
+}
+
+.addBtn i {
+	margin-right: 10px;
+}
+
+.widget-content-table {
+	border: none;
+}
+
+.form_text {
+	padding-top: 3px;
+}
+
+.form_date {
+	background: none;
+	cursor: pointer;
+	color: black;
+}

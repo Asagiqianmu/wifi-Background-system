@@ -1,0 +1,524 @@
+.placePullDown{
+	width: 267px;
+	height: 32px;
+	margin-top: 45px;
+	margin-left: 45px;
+	color: #666;
+	font-size: 12px;
+	line-height: 32px;
+	position: relative;
+}
+.placePullDown > span{
+	width: 151px;
+	height: 30px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	float: right;
+	background: url(../img/down.png) no-repeat 135px;
+	background-size: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+.placePullDown > ul{
+	position: absolute;
+	top: 38px;
+	right: 0;
+	width: 153px;
+	background: #f0f0f0;
+	display: none;
+	z-index: 2;
+}
+.placePullDown > ul > li{
+	width: 100%;
+	height: 32px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 32px;
+}
+.placePullDown > ul > li:hover{
+	background: #e6e6e6;
+}
+.radiusNAS{
+	margin-top: 15px;
+	margin-left: 45px;
+	width: 467px;
+	height: 54px;
+	position: relative;
+	color: #666
+}
+.radiusNAS > input{
+	margin-left: 65px;
+	width: 151px;
+	height: 32px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 34px;
+}
+.radiusNAS > button{
+	background: #5bd2e1;
+	color: #fff;
+	width: 100px;
+	height: 34px;
+	border: none;
+	cursor: pointer;
+	margin-left: 14px;
+}
+.radiusNAS > p{
+	font-size: 12px;
+	color: #666;
+	margin-left: 114px;
+	margin-top: 10px;
+}
+.nashov,
+.gwid,
+.sikey{
+	color: black;
+	margin-left: 15px;
+	padding-right: 20px;
+	background: url(../img/tishi.png) no-repeat right;
+	cursor: pointer;
+}
+.nasImg{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	background: url(../img/nas.png) no-repeat center;
+	background-size: contain;
+	top: -40px;
+	left: 440px;
+	opacity: 0;
+	display: none;
+	filter: Alpha(opacity=0);
+	z-index: 5;
+}
+.deviceDetailInfo{
+	margin-top: 15px;
+	margin-left: 45px;
+	color: #666;
+	font-size: 12px;
+	line-height: 32px;
+}
+.deviceDetailInfo > p{
+	float: left;
+	line-height: 32px;
+	margin-top: 10px;
+}
+.inputs{
+	width: 585px;
+	display: inline-block;
+	margin-left: 30px;
+	position: relative;
+}
+.addInput{
+	width: 252px;
+	height: 30px;
+	text-align: left !important;
+	text-indent: 20px;
+	margin: 10px;
+}
+.inputs > span,
+.speedBox > span{
+	display: inline-block;
+	color: red;
+	text-align: right;
+	clear: both;
+	float: right;
+	margin-right: 45px;
+}
+.gwid{
+	position: absolute;
+	right: -80px;
+	top: 10px;
+	line-height: 30px;
+}
+.ik{
+	position: absolute;
+	top: 60px;
+	right: -175px;
+	line-height: 30px;
+}
+.gwidImg{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	background: url(../img/gwid.png) no-repeat center;
+	background-size: contain;
+	top: -70px;
+	right: -390px;
+	opacity: 0;
+	display: none;
+	filter: Alpha(opacity=0);
+	z-index: 5;
+}
+.sikeyImg{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	background: url(../img/sikey.png) no-repeat center;
+	background-size: contain;
+	top: -15px;
+	right: -495px;
+	opacity: 0;
+	display: none;
+	filter: Alpha(opacity=0);
+	z-index: 5;
+}
+.upSpeed{
+	width: 252px;
+	height: 52px;
+	float: left;
+	position: relative;
+}
+.downSpeed{
+	width: 252px;
+	height: 52px;
+	float: left;
+	margin-left: 25px;
+	position: relative;
+}
+.downSpeed > input,
+.upSpeed > input{
+	width: 210px;
+	height: 30px;
+}
+.upSpeed > ul,
+.downSpeed > ul{
+	position: absolute;
+	top: 42px;
+	border-left: 1px solid #ccc;
+	width: 210px;
+	border-right: 1px solid #ccc;
+	left: 10px;
+	z-index: 10;
+	display: none;
+	background: #fff;
+}
+.upSpeed > ul > li,
+.downSpeed > ul > li{
+	border-bottom: 1px solid #ccc;
+	height: 31px;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+/*-----------------------------------------*/
+.produce{
+	font-size: 12px;
+	color: #666;
+	margin-top: 15px;
+	margin-left: 45px;
+}
+.produce > span{
+	float: left;
+	line-height: 30px;
+}
+.produceBox{
+	width: 558px;
+	margin-left: 30px;
+	position: relative;
+	display: inline-block;
+}
+.produceBox > p{
+	width: 252px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.produceBox > p > input{
+	width: 120px;
+	height: 28px;
+	border: 1px solid #ccc;
+	margin-left: 20px;
+}
+.produceBox > input{
+	width: 250px;
+	height: 28px;
+	border: 1px solid #ccc;
+}
+.produceFile,
+.downloadFile{
+	width: 120px;
+	height: 30px;
+	background: #6bbdec;
+	color: #fff;
+	border: none;
+	float: right;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.changeFile{
+	width: 80px;
+	height: 30px;
+	background: #6bbdec;
+	color: #fff;
+	border: none;
+	margin-top: 15px;
+	float: right;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.downloadFile,
+.changeFile{
+	display: none;
+}
+.install{
+	margin-top: 15px;
+	line-height: 30px;
+	height: 30px;
+	margin-left: 45px;
+	color: #666;
+	font-size: 12px;
+}
+.install > input{
+	width: 250px;
+	height: 28px;
+	border: 1px solid #ccc;
+	margin-left: 30px;
+}
+.speed{
+	margin-top: 15px;
+	margin-left: 45px;
+	color: #666;
+	font-size: 12px;
+}
+.speed > span{
+	float: left;
+	line-height: 30px;
+	margin-top: 10px;
+}
+.speedBox{
+	width: 558px;
+	margin-left: 20px;
+	position: relative;
+	display: inline-block;
+}
+
+/* 上传图片 */
+.upPic{
+	width: 90%;
+	height: 800px;
+	margin: 0 auto;
+	color: #666;
+	font-size: 12px;
+}
+.show{
+	width: 380px;
+	height: 380px;
+	float: left;
+}
+.showTitle{
+	margin-top: 20px;
+	margin-left: 30px;
+	line-height: 20px;
+	float: left;
+}
+.showTitle > span{
+	color: #47bfca;
+}
+.showRight{
+	width: 186px;
+	height: 330px;
+	box-shadow: 0 0 10px 0 #666;
+	float: right;
+	margin-right: 20px;
+	background: url(../img/potal.jpg) no-repeat top center;
+	background-size: contain;
+	position: relative;
+}
+.showRight > span{
+	position: absolute;
+	top: 31px;
+	text-align: center;
+	line-height: 60px;
+	width: 100%;
+	height: 65px;
+	border: 1px solid #ccc;
+}
+.showRight > p{
+	bottom: -40px;
+	left: 0;
+	position: absolute;
+}
+.picEdit{
+	width: 300px;
+	height: 330px;
+	float: left;
+	margin-left: 20px;
+}
+.editTitle{
+	color: #47bfca;
+	margin-bottom: 10px;
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+.picCrop{
+	width: 100%;
+	height: 160px;
+	background: #999;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	line-height: 160px;
+}
+.imgShow{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 160px;
+}
+.picMask{
+	width: 260px;
+	height: 80px;
+	border-top: 40px solid rgba(191,191,191,.5);
+	border-bottom: 40px solid rgba(191,191,191,.5);
+	border-left: 20px  solid rgba(191,191,191,.5);
+	border-right: 20px  solid rgba(191,191,191,.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: move;
+}
+.picCrop > span{
+	width: 28px;
+	height: 28px;
+	background: rgba(255,255,255,.1) url(../img/cha.png) no-repeat center;
+	display: inline-block;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-size: 60%;
+	display: none;
+	cursor: pointer;
+}
+.picCrop:hover > span{
+	display: block;
+}
+.shrink{
+	width: 260px;
+	height: 20px;
+	margin: 20px auto;
+}
+.shrink > span{
+	width: 18px;
+	height: 18px;
+	border: 1px dashed #666;
+	display: inline-block;
+	text-align: center;
+	line-height: 16px;
+	color: #666;
+	font-size: 16px;
+	float: left;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.shrink > p{
+	width: 200px;
+	height: 2px;
+	background: #bfbfbf;
+	display: inline-block;
+	float: left;
+	margin: 9px 10px 0 10px;
+	position: relative;
+}
+.shrink > p:before{
+	width: 100px;
+	height: 2px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background: #47bfca;
+	content: "";
+	display: block;
+}
+.shrink > p:after{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #47bfca;
+	content: "";
+	display: block;
+	position: absolute;
+	top: -3px;
+	left: 96px;
+}
+.funBtn{
+	width: 80px;
+	height: 30px;
+	margin: 20px auto;
+}
+.funBtn > span{
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	display: inline-block;
+	background: #47bfca;
+	border-radius: 3px;
+	cursor: pointer;
+}
+/*.funBtn > span:nth-child(1){
+	float: left;
+}
+.funBtn > span:nth-child(2){
+	float: right;
+}*/
+.picList{
+	width: 300px;
+	height: 300px;
+	margin-left: 20px;
+	float: left;
+}
+.image{
+	width: 145px;
+	height: 88px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.image:nth-child(3){
+	margin-right: 0;
+}
+.image > img{
+	width: 100%;
+	height: 100%;
+}
+.image > p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgba(255,255,255,.7);
+	width: 100%;
+	height: 30px;
+	color: #666666;
+}
+.image > p > span{
+	width: 48%;
+	text-align: center;
+	height: 100%;
+	line-height: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+.addImg{
+	width: 145px;
+	height: 88px;
+	background: #b5b5b5;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.addImg > span{
+	font-size: 55px;
+	display: inline-block;
+	line-height: 45px;
+	font-weight: 200;
+}
+.addImg > p{
+	margin-top: 5px;
+}

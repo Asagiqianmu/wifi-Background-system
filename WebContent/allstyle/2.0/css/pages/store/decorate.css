@@ -1,0 +1,130 @@
+/*------------------------------------------------------------------
+
+[װ�� ]
+
+
+-------------------------------------------------------------------*/
+/* ---------------���˵�-------------- */
+#main-nav.nav-tabs.nav-stacked>#webManage {
+	margin-bottom: 0px
+}
+
+#main-nav.nav-tabs.nav-stacked>#webManage>a {
+	border-radius: 5px 5px 0px 0px
+}
+/* ---------------���˵�-------------- */
+.mImg img {
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.mImg p {
+	text-align: center;
+	font-size: 1.1em;
+	margin-top: 10px;
+}
+
+.mbzxWidget ul {
+	color: #333333;
+}
+
+.mbzxWidget .nav-tabs {
+	border: 1px solid silver;
+}
+
+.mbzxWidget li a, .mbzxWidget .nav-tabs>.active>a, .mbzxWidget .nav>li>a:hover
+	{
+	border-width: 1px 1px 0px 1px;
+	border-color: #888888;
+	margin-top: 8px;
+	padding-top: 5px;
+}
+
+.mbzxWidget .widget-content {
+	padding: 0px;
+}
+
+.zxImgUlDiv {
+	margin: 20px 0px;
+}
+
+.faq-number {
+	float: left;
+	height: 24px;
+	width: 24px;
+	line-height: 24px;
+}
+
+.zxImgUlDiv input {
+	margin-left: 10px;
+}
+
+.i1 {
+	font-size: 2em;
+	margin-left: 10px;
+	color: silver;
+}
+
+.i2 {
+	font-size: 2em;
+	margin-left: 10px;
+	color: green;
+}
+
+.i3 {
+	font-size: 2em;
+	margin-left: 10px;
+	color: red;
+}
+
+.mbImgs {
+	border: 3px solid white;
+}
+
+.sFormat {
+	padding: 0px;
+}
+
+.imgRowFluid .span4 {
+	background-color: #F6F6F6;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.imgRowFluid p {
+	margin-top: 10px;
+}
+
+.sFormat img {
+	cursor: default;
+	width: 94%;
+	height: 94%;
+}
+
+.pageTitle {
+	margin: 0px 30px;
+}
+
+.RadioRowFluid p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.divColor {
+	height: 50px;
+	width: 80px;
+	margin: 13px;
+	float: left;
+	border: 3px solid white;
+	cursor: pointer;
+	text-align: center;
+	color: #ffffff;
+	line-height: 50px;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly],
+	select[readonly], textarea[readonly] {
+	background-color: #fff;
+	cursor: pointer;

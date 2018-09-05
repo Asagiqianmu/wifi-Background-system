@@ -1,0 +1,133 @@
+/*------------------------------------------------------------------
+
+[幸运转盘 ]
+
+	Project:		商家后台
+	Version:		1.0
+	Auth:			PengL
+	Description:	幸运转盘页面
+	
+
+-------------------------------------------------------------------*/
+@charset "utf-8";
+
+.color001 {
+	color: #2EAFBB;
+}
+
+.color002 {
+	color: #C70001;
+}
+
+.color003 {
+	color: #555555;
+}
+
+tbody {
+	font-size: 13px;
+}
+
+#winningDetails .span2 {
+	text-align: right;
+	color: #999999;
+}
+
+#winningDetails td {
+	border-top: none;
+	padding: 15px;
+}
+
+.manageOperate {
+	display: none;
+	min-height: 480px;
+	padding-top: 30px;
+}
+
+.manageOperate .widget-content {
+	border: none;
+}
+
+.reviewOperate, .container-fluid {
+	display: none;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly],
+	select[readonly], textarea[readonly] {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+#activityDetail .widget-content {
+	padding: 30px 80px 0px 80px;
+}
+
+.activityDetailDescDiv {
+	border: 1px solid #62C1CD;
+	text-align: center;
+	background-color: #F9F9F9;
+	padding: 30px 0px;
+}
+
+.activityDetailTableDiv {
+	padding: 0px 150px;
+}
+
+#activityDetail table {
+	width: 100%;
+}
+
+#activityDetail table tbody {
+	background-color: #fff;
+}
+
+#activityDetail table td {
+	border: 1px solid #DEDEDE;
+	padding: 3px;
+}
+
+.data_input {
+	padding-left: 0px;
+	margin-left: 0px;
+	float: left;
+	cursor: pointer;
+}
+
+.date_test {
+	float: left;
+}
+
+input.span4, textarea.span4, .uneditable-input.span4 {
+	resize: none;
+}
+
+.addBtn {
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.addBtn i {
+	margin-right: 10px;
+}
+
+.tableTitle {
+	font-size: 14px;
+}
+
+#manageList img {
+	width: 100%;
+	height: 100%;
+}
+
+.tab-pane {
+	min-height: 509px;
+}
+
+#winningStatus {
+	text-align: center;
+	border-top: 1px solid #DDDDDD;
+}
+
+#winningDetails {
+	width: 95%;
+	display: none;
+}

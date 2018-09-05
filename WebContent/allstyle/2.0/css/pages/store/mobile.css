@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+/* 后台中手机部分的样式 */ /*mobile_first*/
+.clearfloat {
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+
+.mobile_first {
+	width: 800px;
+	height: 700px;
+}
+
+.mobile_first .mobile_first_left {
+	width: 320px;
+	position: relative;
+	height: 674px;
+	background: url(../../../img/decorate/iphone5.png) 0 0 no-repeat;
+	overflow: hidden;
+}
+
+.mobile_wrap {
+	position: absolute;
+	overflow: hidden;
+	width: 274px;
+	height: 486px;
+	overflow: hidden;
+	top: 96px;
+	left: 25px;
+}
+
+/*店铺信息*/
+.mobile_shop_info {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	overflow: hidden;
+	z-index: 10;
+}
+
+/*店铺标题*/
+.mobile_shop_info .mobile_shop_title {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 10;
+}
+
+.mobile_shop_title h2 {
+	font-size: 1.3em;
+	font-family: "微软雅黑", Arial;
+	text-shadow: -1px 2px 2px #666666;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+.mobile_shop_title h5 {
+	color: #FFFFFF;
+}
+
+.mobile_shop_title h5 span {
+	float: right;
+	font-style: italic;
+	margin-right: 10px;
+	border-radius: 4px;
+	border: 1px solid #374043;
+}
+
+/*页脚部分*/
+.mobile_wrap .wrap_footer {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+}
+
+/*提示信息*/
+.mobile_wrap .wrap_footer span {
+	width: 100%;
+	height: 5%;
+	display: block;
+	line-height: 1.5em;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: -1px 1px 1px #666666;
+	position: absolute;
+	z-index: 1000;
+}
+
+/*开始上网按钮*/
+.mobile_wrap .wrap_footer img {
+	width: 100%;
+	height: 170%;
+	z-index: 999;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+}
+
+/*背景1*/
+.mobile_wrap ul#window_bg1 {
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.mobile_wrap ul#window_bg1 li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -999;
+	overflow: hidden;
+}
+
+/*背景3*/
+.mobile_wrap ul#window_bg3 {
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.mobile_wrap ul#window_bg3 li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -999;
+	overflow: hidden;
+}
+/*背景2*/
+.mobile_wrap ul#window_bg2 {
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	top: 32px;
+}
+
+.mobile_wrap ul#window_bg2 li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -999;
+	overflow: hidden;
+}
+
+/*Right*/
+.mobile_first .mobile_first_right {
+	width: 460px;
+	height: auto;
+}
+
+.mobile_first .mobile_first_right .editText {
+	width: 380px;
+	height: 600px;
+	background: #FFFFFF url(../../../img/decorate/main_menu_bg.gif) 0 0
+		repeat;
+	/*圆角*/
+	-moz-border-radius: 15px;
+	-khtml-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	behavior: url(pie.htc);
+	border: 1px #cccccc solid;
+	margin-left: 40px;
+	margin-top: 10px;
+	padding: 30px 20px;
+	position: relative;
+}
+
+.mobile_first .mobile_first_right .editText .arrow2 {
+	width: 15px;
+	height: 34px;
+	position: absolute;
+	background: url(../../../img/decorate/arrow2.png) 0 0 no-repeat;
+	top: 103px;
+	left: -15px;
+}
+
+.skip {
+	position: absolute;
+	right: 20px;
+	bottom: 27px;
+	display: block;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+	text-align: center;
+	z-index: 10;
+	background-color: #BF2A24;
+	color: white;
+}
+
+.mobile_wrap ul#shade {
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #333333;
+	position: absolute;
+	z-index: 100;
+	filter: alpha(opacity = 50);
+	opacity: 0.5;
+	color: white;
+	padding-left: 10px;
+}
+
+.mobile_wrap ul#shade li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -999;
+	overflow: hidden;
+	line-height: 33px;
+	padding-left: 15px;
+}

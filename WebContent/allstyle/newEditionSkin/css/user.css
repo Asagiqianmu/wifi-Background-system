@@ -1,0 +1,144 @@
+
+.user-list{
+	clear: both;
+	margin-left: 2%;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.date > li{
+	float: left;
+}
+.date > li > input{
+	height: 33px;
+	text-align: center;
+	border: 1px solid #57c6d4;
+	font-family: Microsoft Yahei;
+	line-height: 35px;
+	margin: 0 5px;
+}
+
+#je2{
+	width:20px;
+	float: none;
+	margin-left: 27px;
+	margin-right:0;
+}
+.date > li > button {
+    background: #57c6d4;
+    border: none;
+    color: #fff;
+    height: 34px;
+    width: 60px;
+    cursor: pointer;
+}
+.date > li > button:hover{
+	background: #5bd2e1;
+}
+button {
+    font-family: Microsoft Yahei;
+}
+
+
+.user-income > .date > li{
+	float: left;
+}
+.user-income > li > button{
+	height: 34px;
+	width: 60px;
+	background: #57c6d4;
+	color: #fff;
+	border: none;
+}
+
+
+.user-list>p{
+	color: #999;
+}
+.user-list>ul{
+	margin-top: 13px;
+}
+.user-list>ul>h6{
+	width: 100%;
+	height: 38px;
+	background: #f7f7f7;
+	line-height: 38px;
+}
+.user-list>ul>h6>span{
+	width: 16.66%;
+	text-align: center;
+	float: left;
+	color: #666;
+	font-size: 14px;
+}
+.user-list>ul>li{
+	width: 100%;
+	height: 37px;
+	border-bottom: 1px solid #f7f7f7;
+}
+.user-list>ul>li:hover{
+	background: #f1f1f1;
+}
+.user-list>ul>li>p{
+	width: 16.66%;
+	text-align: center;
+	float: left;
+	font-size: 12px;
+	line-height: 38px;
+}
+.down{
+	margin-left: 2%;
+	width: 100%;
+}
+.download{
+	width: 120px;
+	height: 28px;
+	color: #fff;
+	background: #57c6d4;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.download:hover{
+	background: #5bd2e1;
+}
+.ui-userAccount{
+	margin-left: 2%;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.ui-userAccount>p{
+	height: 32px;
+	line-height: 32px;
+}
+.ui-userAccount>p>label{
+	color: #999;
+	margin-right: 10px;
+	letter-spacing: 3px;
+}
+.ui-userAccount>p>span{
+	margin-left: 10px;
+	color: #57c6d4;
+	letter-spacing: 3px;
+}
+.recharge,
+.deblocking{
+	width: 80px;
+	height: 34px;
+	color: #fff;
+	border: none;
+	background: #57c6d4;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.blockUp{
+	width: 80px;
+	height: 34px;
+	color: #fff;
+	border: none;
+	background: #e77d7d;
+	cursor: pointer;
+}
+.blockUp:hover{
+	background: #fb7171;
+}

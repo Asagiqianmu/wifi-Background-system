@@ -1,0 +1,552 @@
+.userAndPwd{
+	width: 100%;
+	margin-left: 2%;
+	height: 170px;
+	color: #808080;
+}
+.userAndPwd span{
+	color: #4c4c4c;
+}
+.userAndPwd > p{
+	float: left;
+	width: 280px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 30px;
+	background: url(../img/personagegreen.png) no-repeat 8px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.userAndPwd > p:nth-child(2){
+	background: url(../img/lockgreen.png) no-repeat 8px;
+	margin-left: 30px;
+}
+.userAndPwd i{
+	color: #57c6d4;
+	margin-left: 20px;
+	text-decoration: underline;
+}
+.userAndPwd i:hover{
+	color: #5bd2e1;
+	cursor: pointer;
+}
+.userAndPwd > hr{
+	width: 100%;
+	height: 4px;
+	background: #d6d6d6;
+	border: none;
+}
+.userAndPwd > div{
+	margin: 20px 0 0 0;
+}
+.userAndPwd > em{
+	display: inline-block;
+	font-style: normal;
+	color: #999;
+	font-size: 12px;
+}
+.bankCardList{
+	width: 100%;
+	height: 400px;
+	margin-left: 2%;
+}
+.bankCardList > span{
+	font-size: 14px;
+	color: #4c4c4c;
+	font-weight: bold;
+}
+.bankCardList > button{
+	width: 120px;
+	height: 30px;
+	background: #57c6d4;
+	border: none;
+	color: #fff;
+	margin-left: 50px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.bankCardList > button > i{
+	margin-right: 8px;
+}
+.bankCardList > button:hover{
+	background: #5bd2e1;
+}
+.bankCardList > ul{
+	width: 100%;
+	height: 370px;
+}
+.bankCardList > ul > h6{
+	width: 100%;
+	height: 38px;
+	background: #f7f7f7;
+}
+.bankCardList > ul > h6 > span{
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: 38px;
+	color: #999;
+}
+.bankCardList > ul > li{
+	border-bottom: 1px solid #f7f7f7;
+	height: 38px;
+	width: 100%;
+}
+.bankCardList > ul > li > span{
+	width: 20%;
+	height: 38px;
+	float: left;
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	line-height: 38px;
+}
+.bankCardList > ul > li > span > i{
+	color: #57c6d4;
+	cursor: pointer;
+	font-size: 16px;
+}
+.bankCardList > ul > li > span > i:hover{
+	color: #5bd2e1;
+}
+
+/* 弹窗 */
+.alertVerify{
+	width: 478px;
+	height: 176px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -239px;
+	margin-top: -63px;
+	display: none;
+}
+.alertVerify > p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #4c4c4c;
+	font-size: 12px;
+	text-align: center;
+}
+.verifyinput{
+	margin-top: 30px;
+}
+.verifyinput > input,
+.verifyinput > label,
+.verifyinput > button{
+	float: left;
+}
+.verifyinput > label{
+	margin-left: 25px;
+}
+.verifyinput > input{
+	width: 158px;
+	height: 30px;
+	border: 1px solid #6fd7e4;
+	color: #333;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.verifyinput > button{
+	width: 122px;
+	height: 30px;
+	background: #e5e5e5;
+	border: none;
+	color: #b3b3b3;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 12px;
+}
+.verifyinput > button.on{
+	background: #57c6d4;
+	color: #fff;
+}
+.verifyinput > button.on:hover{
+	background: #5bd2e1;
+}
+.verifyBtn{
+	margin-top: 30px;
+	text-align: center;
+}
+.alertVerify > span{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+	display: inline-block;
+	margin-top: 20px;
+}
+.alertVerify > span > i{
+	color: #57c6d4;
+	font-style: normal;
+}
+.ui-btn{
+	width: 100px;
+	height: 30px;
+	background: #57c6d4;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+}
+.ui-btn:hover{
+	background: #5bd2e1;
+}
+.ui-btn:nth-child(2){
+	width: 98px;
+	height: 30px;
+	background: none;
+	border: 1px solid #57c6d4;
+	color: #57c6d4;
+}
+.ui-btn:nth-child(2):hover{
+	color: #5bd2e1;
+}
+.alertPhoneVerify{
+	width: 448px;
+	height: 262px;
+	background: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -239px;
+	margin-top: -146px;
+	padding: 15px;
+	display: none;
+}
+.alertText{
+	width: 100%;
+	text-align: center;
+	color: #808080;
+	margin: 10px 0;
+}
+.modPhone{
+	width: 100%;
+	font-size: 18px;
+	color: #57bb4a;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.alertPhoneVerify > hr{
+	width: 100%;
+	height: 4px;
+	border: none;
+	background: #ccc;
+	margin-bottom: 12px;
+}
+.alertPhoneVerify > div{
+	height: 50px;
+	line-height: 50px;
+	color: #4c4c4c;
+	font-size: 12px;
+}
+.alertPhoneVerify > div > input{
+	width: 160px;
+	height: 28px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 10px;
+}
+.alertPhoneVerify > div > button{
+	width: 122px;
+	height: 30px;
+	background: #e5e5e5;
+	border: none;
+	float: right;
+	margin-top: 10px;
+	color: #b3b3b3;
+	cursor: pointer;
+}
+.alertPhoneVerify > div > button.on{
+	background: #57c6d4;
+	color: #fff;
+}
+.alertPhoneVerify > div > button.on:hover{
+	background: #5bd2e1;
+}
+.kzmg{
+	margin-right: 122px;
+}
+.pwdMod{
+	width: 478px;
+	height: 146px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -73px;
+	margin-left: -239px;
+	display: none;
+}
+.pwdText{
+	height: 16px;
+	color: red;
+}
+.pwdMod > p{
+	text-align: center;
+	font-size: 12px;
+	margin: 15px auto;
+}
+.pwdMod label{
+	margin-right: 30px;
+	color: #4c4c4c;
+}
+.pwdMod input{
+	width: 174px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.show{
+	width: 480px;
+	height: 466px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+	margin-top: -233px;
+	margin-left: -240px;
+	background: #fff;
+}
+.show > h4{
+	width: 100%;
+	height: 44px;
+	font-size: 14px;
+	color: #808080;
+	line-height: 44px;
+	text-align: center;
+	background: #f5f5f5;
+	position: relative;
+}
+.show > h4 > i{
+	font-size: 12px;
+	font-weight: normal;
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	cursor: pointer;
+}
+.show > form{
+	width: 80%;
+	height: 350px;
+	margin: 0 auto;
+}
+.show > form > p{
+	width: 75%;
+	height: 60px;
+	line-height: 60px;
+	color: #808080;
+	font-size: 12px;
+	position: relative;
+}
+.show > form > p > span{
+	font-size: 14px;
+	color: #bcaf3e;
+}
+.show > form > p > input,
+select{
+	width: 210px;
+	height: 30px;
+	background: none;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 15px;
+	text-align: center;
+	color: #999;
+	font-family: Microsoft Yahei;
+	font-size: 12px;
+}
+select > option{
+	text-align: center;
+}
+.selecter{
+	position: absolute;
+	right: -80px;
+	background: none;
+	border: none;
+	color: #57c6d4;
+	font-style: normal;
+	cursor: pointer;
+}
+.refer{
+	width: 120px;
+	height: 30px;
+	background: #57c6d4;
+	border: none;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 76px;
+	cursor: pointer;
+}
+.refer:hover{
+	background: #5bd2e1;
+}
+.listClosedid{
+	width: 90%;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.addClosedid,.ensure{
+	width: 120px;
+	height: 30px;
+	cursor: pointer;
+	color: #fff;
+	background: #57c6d4;
+	border: none;
+}
+.addClosedid:hover,
+.ensure:hover{
+	background: #5bd2e1;
+}
+.closedidList{
+	width: 100%;
+	height: 260px;
+	overflow: auto;
+	margin-top: 20px;
+}
+.closedidList > li{
+	height: 34px;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 34px;
+	position: relative;
+	cursor: pointer;
+}
+.closedidList > li span{
+	float: left;
+	display: inline-block;
+}
+.closedidList > li span.abs{
+	position: absolute;
+	left: 0;
+}
+.text{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.ico{
+	width: 16px;
+	height: 16px;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+	position: absolute;
+	top: 7px;
+	text-align: center;
+	line-height: 22px;
+}
+.ico > i{
+	color: #fff;
+	font-size: 12px;
+}
+.ico:nth-child(4){
+	border: none;
+	background: #de7f7f;
+	width: 20px;
+	height: 20px;
+	right: 5px !important;
+	display: none;
+}
+.closedidList > li.on > .ico:nth-child(1){
+	border: 2px solid #6fd7e4;
+	line-height: 16px;
+	
+}
+.closedidList > li.on > .ico:nth-child(1) > i{
+	color: #6fd7e4;
+}
+.closedidList > li:hover > .ico:nth-child(4){
+	display: block;
+}
+.ensure{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.poundage{
+	padding: 6px 20px;
+	position: absolute;
+	left: 360px;
+	background: #fff;
+	top: 30px;
+	text-align: center;
+	color: #da6b6b;
+	z-index: 2;
+	box-shadow: 0 0 5px #999;
+	display: none;
+	font-size: 12px;
+}
+.gatheringNum{
+	padding: 6px 20px;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: 0 0 5px #999;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	left: 250px;
+	z-index: 2;
+	display: none;
+}
+.cause{
+	padding: 6px 20px;
+	height: 20px;
+	line-height: 20px;
+	box-shadow: 0 0 5px #999;
+	background: #fff;
+	position: absolute;
+	left: 800px;
+	font-size: 12px;
+	top: 26px;
+	z-index: 2;
+	display: none;
+}
+#newAddCardName{
+	position: relative;
+}
+#newAddCardName span{
+	font-size: 12px;
+	color: red;
+	position: absolute;
+	left: 75px;
+	top: 43px;
+	line-height: 24px;
+}
+.bigNum{
+	width: 300px;
+	height: 40px;
+	border: 2px solid orange;
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	background: #fffbe5;
+	font-size: 20px;
+	color: orange;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+}
+.mayMoneyGeg{
+	display: inline-block;
+}
+.mayMoneyGeg.gun{
+	animation : fangun 1s;
+}
+@keyframes fangun{
+	0% {
+		
+		transform:rotateX(0deg);
+	}
+	50% {
+		transform:rotateX(180deg);
+	}
+	100% {
+		
+		transform:rotateX(0deg);
+	}
+}

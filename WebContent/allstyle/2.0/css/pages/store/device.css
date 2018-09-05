@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+#sAuth, #sDecorate, #sApply {
+	display: none;
+}
+
+#webManage {
+	margin-bottom: 4px;
+}
+
+#webManage a {
+	border-radius: 5px;
+}
+.deviceOperate {
+	display: none;
+}

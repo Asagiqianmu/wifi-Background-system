@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icon';
+  src: url('data.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon{
+  font-family: icon;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+
+.icon-logo:before{
+	content: "\E001"
+}
+.icon-solar:before{
+	content: "\E002"
+}
+.icon-oper:before{
+	content: "\E003"
+}
+.icon-place:before{
+	content: "\E004"
+}
+.icon-billing:before{
+	content: "\E005"
+}
+.icon-user:before{
+	content: "\E006"
+}
+.icon-ask:before{
+	content: "\E007"
+}
+.icon-down:before{
+	content: "\E008"
+}
+.icon-up:before{
+	content: "\E009"
+}
+.icon-right:before{
+  content: "\E010"
+}
+.icon-left:before{
+  content: "\E011"
+}
+.icon-true:before{
+  content: "\E012"
+}
+.icon-goright:before{
+  content: "\E013"
+}
+.icon-circle:before{
+  content: "\E014"
+}
+.icon-add:before{
+  content: "\E015"
+}
+.icon-admin:before{
+  content: "\E016"
+}
+.icon-goLeft:before{
+  content: "\E017"
+}
+.icon-goDown:before{
+  content: "\E018"
+}
+.icon-false:before{
+  content: "\E019"
+}
+.icon-edit:before{
+  content: "\E020"
+}
+.icon-seek:before{
+  content: "\E021"
+}
+.icon-trash:before{
+  content: "\E022"
+}
+.icon-fund:before{
+  content: "\E023"
+}.icon-personage:before{
+  content: "\E024"
+}
+.dd-fonts-auto:before{
+  content: attr(data-code)
+}

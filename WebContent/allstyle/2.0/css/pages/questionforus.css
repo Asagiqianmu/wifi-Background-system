@@ -1,0 +1,10 @@
+
+.question_close{ margin-left:410px; margin-top:10px;}
+.navbar1{width:50px; height:50px; margin-bottom: 200px;  position: fixed; bottom: 0; right:0px; z-index:1030;}
+.navbar2{width:450px; height:330px; margin-bottom: 250px;  border:#ccc solid 2px; position: fixed; bottom: 0; right:0px; z-index:1030;font-family: 微软雅黑;}
+.navbar2 input,textarea{margin-left:20px; margin-top:10px;}
+.question_btn{float:left}
+.question_world{font-size:12px; color:red; margin-left:320px; margin-top:0px; font-family: 微软雅黑;}
+.question_msg{margin-left:30px; width:336px; height:25px;float:left; font-size:12px;}
+.readyonlys{readyonly:readyonly}
+.div_world{margin-left:20px;color:#2eafbb;}
